@@ -1,0 +1,353 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(255, 255, 255);
+  color: white;
+  font-family: "poppins";
+}
+
+/* nav start */
+.navbar {
+  background-color: #ed80e9;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: sticky;
+  top: 0;
+}
+
+.navbar img {
+  width: 75px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.nav-left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-weight: bold;
+  font-size: larger;
+}
+.navbar a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  padding: 5px 20px;
+}
+
+.navbar a:hover {
+  color: yellow;
+}
+
+.nav-btn button {
+  background-color: rgb(251, 192, 45);
+  border: none;
+  color: white;
+  width: 111px;
+  height: 40px;
+  border-radius: 10px;
+}
+.nav-btn button:hover {
+  /* background-color: white; */
+  opacity: 75;
+  color: black;
+}
+/* nav end*/
+
+/*  hero start*/
+header {
+  background: url(../assets/anggrekhero.png) center/cover;
+  color: white;
+  padding: 150px 60px;
+}
+
+header h2 {
+  font-size: 32px;
+  margin-bottom: 10px;
+  max-width: 400px;
+  font-weight: bold;
+}
+
+header p {
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+
+header button {
+  background-color: rgb(251, 192, 45);
+  border: none;
+  color: white;
+  width: 150px;
+  height: 50px;
+  border-radius: 8px;
+  font-weight: bold;
+  font-size: 18px;
+}
+/*  hero end*/
+
+/* produk start */
+.produk-kami {
+  color: black;
+  text-align: center;
+  padding: 50px;
+}
+
+.produk-kami .cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 50px;
+  padding: 50px;
+  margin-top: 20px;
+  /* align-content: center; */
+  justify-content: center;
+}
+
+.card-detail {
+  width: 350px;
+  background-color: #ed80e9;
+  color: white;
+  border-radius: 20px;
+  padding: 20px;
+  text-align: start;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 15px;
+}
+.card-detail img {
+  width: 100%;
+  border-radius: 10px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.card-detail .btn {
+  background-color: rgb(251, 192, 45);
+  border: none;
+  color: white;
+  width: 175px;
+  height: 50px;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 18px;
+  align-self: center;
+}
+
+.produk-kami .btn-lihat-lain {
+  margin-top: 50px;
+  background-color: rgb(251, 192, 45);
+  border: none;
+  color: white;
+  width: 300px;
+  height: 60px;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 18px;
+  align-self: center;
+}
+/* produk end */
+
+/* artikel start */
+.artikel {
+  color: black;
+  padding: 100px;
+}
+
+.header-artikel {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-artikel button {
+  margin-top: 50px;
+  background-color: rgb(251, 192, 45);
+  border: none;
+  color: white;
+  width: 200px;
+  height: 60px;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 18px;
+  margin-top: 7px;
+}
+
+.artikel h2 {
+  margin-bottom: 15px;
+}
+
+.artikel .cards-artikel {
+  margin-top: 25px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 50px;
+}
+
+.artikel p {
+  margin-bottom: 30px;
+}
+
+.artikel .card-detail-artikel {
+  width: 500px;
+  height: 500px;
+  padding: 30px;
+  background-color: #ed80e9;
+  border-radius: 20px;
+  color: white;
+}
+.artikel .card-detail-artikel img {
+  margin-bottom: 50px;
+  border-radius: 10px;
+  width: 100%;
+  height: 200px;
+}
+.artikel .card-detail-artikel h3 {
+  margin-bottom: 10px;
+}
+.artikel .card-detail-artikel p {
+  margin-bottom: 40px;
+}
+
+.artikel .card-detail-artikel .btn {
+  width: 300px;
+  background-color: rgb(251, 192, 45);
+  border: none;
+  color: white;
+  /* width: 175px; */
+  height: 50px;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 18px;
+  align-self: center;
+  border: none;
+}
+
+/* artikel end */
+
+/* deteksi start */
+.deteksi {
+  color: black;
+  padding: 100px;
+}
+
+.deteksi h2 {
+  margin-bottom: 15px;
+}
+
+.deteksi p {
+  max-width: 400px;
+}
+
+.header-deteksi {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-deteksi button {
+  margin-top: 50px;
+  background-color: rgb(251, 192, 45);
+  border: none;
+  color: white;
+  width: 200px;
+  height: 60px;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 18px;
+  margin-top: 7px;
+}
+
+.deteksi h2 {
+  margin-bottom: 15px;
+}
+
+.cards-deteksi {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 50px;
+}
+
+.card-detail-deteksi {
+  margin-top: 50px;
+  padding: 30px;
+  background-color: #fafafa;
+  width: 450px;
+  height: 500px;
+  border-radius: 20px;
+  box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.25);
+}
+
+.card-detail-deteksi img {
+  width: 100%;
+  height: 100%;
+  padding: 15px 0px;
+}
+
+.hasil-deteksi {
+  margin-top: 10px;
+  margin-left: 10px;
+}
+/* deteksi end */
+
+/* footer start */
+footer {
+  background-color: #424242;
+  padding: 50px 0px;
+}
+
+.footer-top {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 150px;
+}
+
+.footer-profile img {
+  margin-top: -5px;
+}
+.footer-profile p {
+  margin-top: 15px;
+  max-width: 400px;
+}
+
+.footer-tautan li {
+  list-style-type: none;
+  margin-top: 10px;
+}
+
+.footer-kontak {
+  max-width: 300px;
+}
+
+.footer-sosmed h2 {
+  margin-bottom: 5px;
+}
+
+.sosmed {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.sosmed img {
+  width: 50px;
+  height: 50px;
+}
+
+.garis{
+    margin-top: 50px;
+    width: 100%;
+    height: 1px;
+    background-color: rgba(255, 255, 255, 0.486);
+}
+
+footer .copyright{
+    text-align: center;
+    font-weight: bold;
+    margin-top: 50px;
+}
+/* footer end */
